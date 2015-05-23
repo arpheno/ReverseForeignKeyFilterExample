@@ -3,3 +3,8 @@
 <li>{{ object }}</li>
 {% endfor %}
 </ul>
+<form action="" method="POST">
+    {% csrf_token %}
+<input type="text" name="lastname" value="Mouse">
+<input type="submit">
+</form>

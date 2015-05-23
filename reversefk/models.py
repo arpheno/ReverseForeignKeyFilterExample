@@ -3,8 +3,8 @@ from django.db import models
 # Create your models here.
 class Size(models.Model):
     id = models.IntegerField(primary_key=True)
-    size = models.CharField(max_length=255)
-    country = models.CharField(max_length=255)
+    size = models.CharField(max_length=255,default="size")
+    country = models.CharField(max_length=255,default="country")
 
     class Meta:
         db_table = 'size'

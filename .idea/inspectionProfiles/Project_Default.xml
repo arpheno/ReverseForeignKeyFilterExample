@@ -1,0 +1,33 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0" is_locked="false">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="19">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="django-debugtools" />
+            <item index="2" class="java.lang.String" itemvalue="html5lib" />
+            <item index="3" class="java.lang.String" itemvalue="django-notify" />
+            <item index="4" class="java.lang.String" itemvalue="django-backbone" />
+            <item index="5" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="6" class="java.lang.String" itemvalue="django-angular" />
+            <item index="7" class="java.lang.String" itemvalue="django-password-reset" />
+            <item index="8" class="java.lang.String" itemvalue="xlwt" />
+            <item index="9" class="java.lang.String" itemvalue="django-common" />
+            <item index="10" class="java.lang.String" itemvalue="python-memcached" />
+            <item index="11" class="java.lang.String" itemvalue="django-froala-editor" />
+            <item index="12" class="java.lang.String" itemvalue="django-reversion" />
+            <item index="13" class="java.lang.String" itemvalue="django-helper" />
+            <item index="14" class="java.lang.String" itemvalue="django-extra-views" />
+            <item index="15" class="java.lang.String" itemvalue="django-suit-redactor" />
+            <item index="16" class="java.lang.String" itemvalue="django-form-utils" />
+            <item index="17" class="java.lang.String" itemvalue="django-suit" />
+            <item index="18" class="java.lang.String" itemvalue="suit" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
