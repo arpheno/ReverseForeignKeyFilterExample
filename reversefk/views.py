@@ -2,15 +2,17 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.views.generic import ListView
-from reversefk.models import Size
+from reversefk.models import Size, Order
 
 
 class ReverseFK(ListView):
     model = Size
     def get_queryset(self):
-        Size.objects.create()
-        return Size.objects.filter(orders__user_id=5)
-    model = Size
+        s=Size.objects.create()
+        s.save()
+        print s.id
+        Order.objects.create(size_id=s.id)
+        return Size.objects.filter(order__user_id=5)
 
 
     def post(self, request, *args, **kwargs):
