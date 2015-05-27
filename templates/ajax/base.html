@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"> </script>
+    <script type="text/javascript">
+        function navigate_pages() {
+            num_results=5;
+            $.ajax({
+                url: '/myFunction',
+                type: 'GET',
+                data: {"num_results":num_results},
+                success: function(data){} // I think this is legal to say
+            });
+        }
+    </script>
+</head>
+<body>
+<button onclick="navigate_pages()">Button</button>
+</body>
+</html>
